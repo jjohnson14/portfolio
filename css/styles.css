@@ -51,6 +51,9 @@ body{
 .break2{
 	display:none;
 }
+.geek:hover {
+	color:#00f;
+}
 
 /*photo*/
 .img-container {
@@ -212,7 +215,7 @@ body{
 
 /*footer*/
 footer {
-    width: 66.7%;
+    width: 65.9%;
     float: right;
     bottom: 9px;
     position: absolute;
@@ -226,7 +229,7 @@ footer {
 }
 .info {
 	z-index:5;
-	margin-left:30px;
+	margin-left:25px;
 	float:left;
 }
 .social {
