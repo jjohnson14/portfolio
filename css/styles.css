@@ -1,0 +1,379 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+body{
+	background-color:#000;
+}
+.container {
+	margin:0px auto;
+	width:100%;
+}
+
+/*header*/
+.header {
+	background-color:#fff;
+	float:right;
+	width:66.7%;
+	overflow-y:hidden;
+	position:relative;
+}
+.header h1, h2, p {
+	font-family:'Fjalla One', Helvetica;
+	text-transform:uppercase;
+}
+.header h1 {
+	font-size:50px;
+	margin-top:5px;
+	margin-bottom:0px;
+}
+.header h2 {
+	margin:0px;
+}
+.header p {
+	margin:0;
+	font-weight:100;
+}
+.header p a {
+	margin:0;
+	font-weight:100;
+	text-decoration:none;
+	color:#000;
+}
+.head-padding {
+	padding:15px 25px;
+}
+.line {
+	width:40px;
+	height:3px;
+	background-color:#000;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+.break2{
+	display:none;
+}
+
+/*photo*/
+.img-container {
+	width:33.3%;
+	height:98.1%;
+	float:left;
+	position:absolute;
+	z-index:5;
+}
+.home-img {
+	background:url(../img/yose.jpg) no-repeat 75% 50%;
+	background-size:cover;
+	top: 0px;
+	bottom: 4px;
+	left: 0px;
+	right: 5px;
+	position: absolute;
+	z-index:5;
+}
+
+/*Diamonds*/
+.diamonds-container {
+	width:66.7%;
+	height:50%;
+	float:right;
+	margin:-55px auto;
+	background-color:#fff;
+}
+.diamond-grid {
+	margin-top:0px;
+	margin-bottom:0px;
+	background-color:#fff;
+	clear:both;
+	padding-left:0px;
+}
+.diamond-grid li{
+	list-style:outside none none;
+	margin-bottom:25px;
+}
+.diamond {
+	display:block;
+	background:transparent none repeat scroll 0% 0%;
+	width:110px;
+	text-decoration:none;
+	border:6px solid #000;
+	transform:rotate(45deg);
+	height:110px;
+	color:#000;
+	margin:10px auto;
+	position:relative;
+	z-index:10;
+}
+.diamond2 {
+	display:block;
+	background:transparent none repeat scroll 0% 0%;
+	width:90px;
+	text-decoration:none;
+	border:10px solid transparent;
+	height:90px;
+	color:#000;
+	margin:0px auto;
+	transition:border .5s;
+	position:relative;
+}
+.text {
+	width:170px;
+	height:90px;
+	font-family:'Fjalla One', Helvetica;
+	font-size:16px;
+	text-transform:uppercase;
+	padding:-1px 10px;
+	display:table-cell;
+	vertical-align:middle;
+	transform:rotate(-45deg);
+	text-align:center;
+}
+.diamond:hover {
+	background: #000;
+	color: #fff;
+	border:6px solid #000;
+	z-index:20;
+}
+.diamond2:hover {
+	border:10px solid #fff;
+	color:#fff;
+	z-index:20;
+	transition:border .75s;
+}
+.d-line {
+	width:40px;
+	height:3px;
+	background-color:#000;
+	margin-top:30px;
+	margin-bottom:-67px;
+	margin-left:25px;
+}
+.hvr-bounce{
+	transform: scale(1.2) rotate 45deg;
+	transition:transform .75s;
+}
+.hvr-bounce:hover{
+  transform: scale(1.2) rotate(45deg);
+  transition:transform 1.2s; 
+}
+
+/*dropdown*/
+.dropdown {
+    position: fixed;
+    display: inline-block;
+    right:55px;
+    top:35px;
+}
+.dropdown .dropdown-menu {
+    position: absolute;
+    top: -27px;
+    display: none;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown button {
+    border: none;
+    margin: 0;
+    padding: 0.4em 0.8em;
+    font-size: 1em;
+    background:#fff;
+}
+.dropdown a {
+    display: block;
+    padding: 1.2em 0.8em;
+    text-decoration: none;
+    background: #000 none repeat scroll 0% 0%;
+    color: #fff;
+    top: 0px;
+    position: relative;
+    width: 133px;
+    left: -50px;
+    font-family: "Fjalla One",Helvetica;
+}
+.dropdown a:hover {
+    background: #BBBBBB;
+}
+.m-line {
+	width:30px;
+	height:3px;
+	background-color:#000;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.menu {
+	position:fixed;
+	top:30px;
+	right:116px;
+}
+
+/*footer*/
+footer {
+    width: 66.7%;
+    float: right;
+    bottom: 9px;
+    position: absolute;
+    right: 8px;
+    font-size:14px;
+}
+.footer-contain {
+    background-color: #FFF;
+    padding-top: 75px;
+    padding-bottom:52px;
+}
+.info {
+	z-index:5;
+	margin-left:30px;
+	float:left;
+}
+.social {
+	float:right;
+	margin-right:22px;
+	margin-top:14px;
+}
+.social a {
+	text-decoration:none;
+	color:#000;
+	text-transform:uppercase;
+	font-family:'Fjalla One', Helvetica;
+	margin-right:10px;
+}
+.social a:hover {
+	color:#00f;
+}
+
+/*logo*/
+#logo {
+    z-index: 50;
+    position: absolute;
+    left: 35px;
+    top: 25px;
+    font-size: 30px;
+    line-height: 1;
+    text-decoration:none;
+    text-align:center;
+}
+@font-face {
+    font-family: Pops;
+    src: url(../fonts/pops_08_BOLD.ttf);
+    font-weight:400;
+}
+.logo-font{
+	font-family:Pops, Helvetica, Arial, sans-serif;
+	margin-top:5px;
+}
+.logo-font a{
+	text-decoration:none;
+	color:#000;
+}
+.logo-font a:hover{
+	text-decoration:none;
+	color:#00f;
+}
+
+/*Media Queries*/
+@media (min-width:768px) and (max-width:991px) {
+	.break1 {
+		display:none;
+	}
+	.break2 {
+		display:block;
+	}
+}
+@media (max-width:767px) {
+	.header {
+		width:100%;
+		padding-top:100px;
+	}
+	.head-padding{
+		padding-bottom:75px;
+	}
+	.diamond-grid li {
+		padding-top:40px;
+	}
+	.break1{
+		display:none;
+	}
+	.break2{
+		display:none;
+	}
+	.img-container{
+		position:relative;
+		height:500px;
+		width:100%;
+	}
+	.home-img {
+		background-size:cover;
+		right:0px;
+	}
+	.diamonds-container {
+		position:relative;
+		width:100%;
+		padding-top:50px;
+		padding-bottom:30px;
+	}
+	.diamond-grid {
+		padding-left:0px;
+	}
+	.diamond {
+		margin:15px auto;
+		width:150px;
+		height:150px;
+		border: 10px solid #000;
+	}
+	.diamond:hover {
+		border: 10px solid #000;
+	}
+	.diamond2 {
+		width:130px;
+		height:130px;
+	}
+	.text {
+		height:130px;
+		font-size:20px;
+	}
+	.d-line {
+		display:none;
+	}
+	.dropdown {
+		position:absolute;
+		right:30px;
+	}
+	.menu {
+		position:absolute;
+		right:91px;
+	}
+	footer{
+		position:relative;
+		width:100%;
+		right:0px;
+		bottom:0px;
+	}
+	.social {
+		margin-right:0px;
+		text-align:center;
+		float:none;
+		width:100%;
+		font-size:22px;
+		margin-bottom:40px;
+	}
+	.fa-lg {
+	    font-size: 4.333em;
+	    line-height: 0.75em;
+	    vertical-align: -15%;
+	    width: 30%;
+	}
+	.social-tag {
+		display:none;
+	}
+	.info {
+		text-align:center;
+		float:none;
+		margin-left:0px;
+		margin-top:60px;
+		font-size:20px;
+	}
+}
