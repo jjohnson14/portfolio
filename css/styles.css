@@ -60,16 +60,17 @@ body{
 /*photo*/
 .img-container {
 	width:33.3%;
-	height:98.1%;
 	float:left;
 	position:absolute;
 	z-index:5;
+	bottom:12px;
+	top:8px;
 }
 .home-img {
 	background:url(../img/yose1.jpg) no-repeat 75% 50%;
 	background-size:cover;
 	top: 0px;
-	bottom: 4px;
+	bottom: 0px;
 	left: 0px;
 	right: 5px;
 	position: absolute;
@@ -219,9 +220,9 @@ body{
 
 /*footer*/
 footer {
-    width: 65.9%;
+    width: 66.9%;
     float: right;
-    bottom: 9px;
+    bottom: 12px;
     position: absolute;
     right: 8px;
     font-size:14px;
@@ -346,6 +347,9 @@ footer {
 		width:150px;
 		height:150px;
 	}
+	.diamond:hover {
+		border:9px;
+	}
 	.diamond2{
 		width:130px;
 		height:130px;
@@ -353,7 +357,6 @@ footer {
 	.text {
 		font-size:20px;
 		height:135px;
-
 	}
 }
 @media (min-width:768px) and (max-width:991px) {
