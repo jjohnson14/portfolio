@@ -333,7 +333,7 @@ footer {
 }
 
 /*Media Queries*/
-@media (max-width:1200px){
+@media (min-width:992px){
 	.diamonds-container {
 		width:66.7%;
 		height:50%;
