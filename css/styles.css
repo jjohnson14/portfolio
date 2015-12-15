@@ -333,7 +333,7 @@ footer {
 }
 
 /*Media Queries*/
-@media (min-width:992px){
+@media (min-width:1400px){
 	.diamonds-container {
 		width:66.7%;
 		height:50%;
@@ -342,8 +342,18 @@ footer {
 		background-color:#fff;
 	}
 	.diamond {
+		border:9px solid #000;
 		width:150px;
 		height:150px;
+	}
+	.diamond2{
+		width:130px;
+		height:130px;
+	}
+	.text {
+		font-size:20px;
+		height:135px;
+
 	}
 }
 @media (min-width:768px) and (max-width:991px) {
